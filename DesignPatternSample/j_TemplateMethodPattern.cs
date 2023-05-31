@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace DesignPatternSample
 {
+    //The Template Method pattern defines the skeleton of an algorithm in a base class
+    //but lets subclasses override specific steps of the algorithm without changing its structure.
+
     // Abstract class with template method
     public abstract class CoffeeBeverage
     {
